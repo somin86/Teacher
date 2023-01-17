@@ -60,6 +60,7 @@ public class DataMaintainActivity extends AppCompatActivity {
             activityPreference.edit().putString("lastUpdate", now.toString());
             binding.txtLastUpdate.setText(activityPreference.getString("lastUpdate","無更新"));
             binding.dwprogressBar.setVisibility(View.INVISIBLE);
+
         }
     };
     //
